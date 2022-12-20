@@ -76,3 +76,5 @@ gem "bootstrap", "~> 5.2"
 gem "jquery-rails", "~> 4.5"
 
 gem "rails-i18n", "~> 7.0"
+
+gem "cssbundling-rails", "~> 1.1"

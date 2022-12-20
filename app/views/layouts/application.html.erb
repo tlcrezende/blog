@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Blog</title>
+    <title>Meu Bloguinho</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -11,6 +11,20 @@
   </head>
 
   <body>
-    <%= yield %>
+  
+    <div class="bg-primary text-white text-center mb-4 p-4">
+      <%= link_to root_path, class: 'text-white' do %>
+        <h1 class='display-4'> Blog Padrão do Thiago Rezende </h1>
+      <% end %>
+      <p  class="lead">
+        Olá, aqui você encontrará devaneios meus que quero expor aos corajosos que acharem essa página
+      </p>
+    </div>
+    <div class="container">
+      <%= yield %>
+    </div>
+    <footer class="bg-primary text-white text-center mt-5 p-4">
+      Desenvolvido por Thiago Rezende em 2022
+    </footer>
   </body>
 </html>
