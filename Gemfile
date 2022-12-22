@@ -78,3 +78,11 @@ gem "jquery-rails", "~> 4.5"
 gem "rails-i18n", "~> 7.0"
 
 gem "cssbundling-rails", "~> 1.1"
+
+gem "byebug", "~> 11.1"
+
+gem "jsbundling-rails", "~> 1.1"
+
+gem "friendly_id", "~> 5.5"
+
+gem "pg_search", "~> 2.3"
